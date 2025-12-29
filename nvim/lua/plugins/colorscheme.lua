@@ -19,6 +19,10 @@ return {
 
       -- Aplicar el tema
       vim.cmd([[colorscheme gruvbox-high-contrast]])
+
+      -- Ajustes para neo-tree
+      vim.cmd([[hi NeoTreeFloatNormal guifg=#ebdbb2 guibg=#3c3836]])
+      vim.cmd([[hi NeoTreeFloatBorder guifg=#665c54 guibg=#3c3836]])
     end,
   },
 }
